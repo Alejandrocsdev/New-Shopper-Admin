@@ -1,0 +1,26 @@
+.themeToggle {
+  width: 2rem;
+  height: 2rem;
+  padding: .3rem;
+  margin-right: 1rem;
+  color: var(--theme-primary-text);
+  border-radius: .3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.themeToggle:hover {
+  background-color: var(--theme-icon-hover-background);
+}
+
+.circleHalfStroke {
+  width: 1.25rem;
+  height: 1.25rem;
+  transition: transform .5s;
+}
+
+.rotate {
+  transform: rotateZ(180deg);
+}
